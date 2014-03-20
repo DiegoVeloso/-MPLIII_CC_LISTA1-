@@ -37,11 +37,19 @@ public class Fatura {
 		this.preco = preco;
 	}
 	
-	//Método para calcular o valor da fatura
+	//Mï¿½todo para calcular o valor da fatura
 	
-	public double getValorFatura(int qntComprada, double preco){
-		double valorTotal = (qntComprada * preco);
+	public double getValorfatura(){
 		
-		return valorTotal;
+		if(this.qntComprada<=0.0){
+			return 0.;
+		}
+		
+		if(this.precoItem<=0.0){
+			return 0.0;
+		}
+		
+		return  (this.qntComprada * this.precoItem);	
+		
 	}
 }
