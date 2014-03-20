@@ -6,7 +6,7 @@ public class QST1 {
 	 * O compilador java converte o codigo em fonte em bytecodes que representam tarefas a serem executadas
 	 *  na fase de execucao.
 	 *  
-	 *  A jvm armazena o programa na memória para executa-lo, efetuando o carregamento. Enquanto as classes são
+	 *  A jvm armazena o programa na memoria para executa-lo, efetuando o carregamento. Enquanto as classes são
 	 *  carregadas o verificador examina seus bytecodes para assegurar que são válidos e não violam restricao de
 	 *  segurança do java.
 	 *  
