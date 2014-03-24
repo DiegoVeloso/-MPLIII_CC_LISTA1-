@@ -1,4 +1,4 @@
-package br.unipe.mlp.lista1.questao7;
+package br.unipe.mpl.lista1.questao7;
 
 import java.util.Scanner;
 
