@@ -1,4 +1,4 @@
-package br.unipe.mlp.lista1.questao4;
+package br.unipe.mpl.lista1.questao4;
 
 public class QST4 {
 	
